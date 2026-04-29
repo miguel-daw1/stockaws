@@ -18,7 +18,7 @@ export const InventoryTable = ({ products, onDelete }: Props) => {
 
   return (
     <div className="table-responsive">
-      <table className="table table-hover align-middle mb-0">
+      <table className="table table-hover table-dark align-middle mb-0">
         <thead className="bg-light">
           <tr>
             <th className="px-4 py-3 border-0 text-muted small fw-bold">PRODUCTO</th>
